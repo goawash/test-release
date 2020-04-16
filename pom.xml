@@ -54,8 +54,8 @@
                     <useSnapshotInRelease>false</useSnapshotInRelease>
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
-                        <developmentBranch>release-${project.version}</developmentBranch>
-                        <releaseBranchPrefix>release__</releaseBranchPrefix>
+                        <developmentBranch>rmaster</developmentBranch>
+                        <releaseBranchPrefix>release-${project.version}</releaseBranchPrefix>
                     </gitFlowConfig>
                 </configuration>
             </plugin>
