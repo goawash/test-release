@@ -52,6 +52,7 @@
                     <pushRemote>false</pushRemote>
                     <versionDigitToIncrement>1</versionDigitToIncrement>
                     <useSnapshotInRelease>false</useSnapshotInRelease>
+                    <keepBranch>true</keepBranch>
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
                         <developmentBranch>rmaster</developmentBranch>
