@@ -52,8 +52,8 @@
                     <pushRemote>false</pushRemote>
                     <versionDigitToIncrement>1</versionDigitToIncrement>
                     <gitFlowConfig>
-                        <productionBranch>test-master</productionBranch>
-                        <developmentBranch>test-release</developmentBranch>
+                        <productionBranch>master</productionBranch>
+                        <developmentBranch>release-${project.version}</developmentBranch>
                         <releaseBranchPrefix>release</releaseBranchPrefix>
                     </gitFlowConfig>
                 </configuration>
