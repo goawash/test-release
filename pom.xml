@@ -55,7 +55,7 @@
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
                         <developmentBranch>release-${project.version}</developmentBranch>
-                        <releaseBranchPrefix>release</releaseBranchPrefix>
+                        <releaseBranchPrefix>release__</releaseBranchPrefix>
                     </gitFlowConfig>
                 </configuration>
             </plugin>
