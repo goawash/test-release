@@ -51,6 +51,8 @@
                     <verbose>true</verbose>
                     <pushRemote>false</pushRemote>
                     <versionDigitToIncrement>1</versionDigitToIncrement>
+                    <useSnapshotInRelease>false</useSnapshotInRelease>
+                    <sameBranchName>true</sameBranchName>
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
                         <developmentBranch>release-${project.version}</developmentBranch>
